@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Project Name="ipmitool" Version="10.0.0" InternalType="">
+  <VirtualDirectory Name="include">
+    <VirtualDirectory Name="ipmitool">
+      <File Name="include/ipmitool/bswap.h"/>
+      <File Name="include/ipmitool/ipmi_sdr.h"/>
+      <File Name="include/ipmitool/ipmi_gendev.h"/>
+      <File Name="include/ipmitool/ipmi_delloem.h"/>
+      <File Name="include/ipmitool/ipmi_constants.h"/>
+      <File Name="include/ipmitool/hpm2.h"/>
+      <File Name="include/ipmitool/ipmi_dcmi.h"/>
+      <File Name="include/ipmitool/ipmi_event.h"/>
+      <File Name="include/ipmitool/ipmi_channel.h"/>
+      <File Name="include/ipmitool/ipmi_cfgp.h"/>
+      <File Name="include/ipmitool/ipmi_session.h"/>
+      <File Name="include/ipmitool/ipmi_oem.h"/>
+      <File Name="include/ipmitool/ipmi_lanp.h"/>
+      <File Name="include/ipmitool/ipmi_intf.h"/>
+      <File Name="include/ipmitool/ipmi_user.h"/>
+      <File Name="include/ipmitool/ipmi_main.h"/>
+      <File Name="include/ipmitool/ipmi_strings.h"/>
+      <File Name="include/ipmitool/ipmi_sel_supermicro.h"/>
+      <File Name="include/ipmitool/ipmi_sensor.h"/>
+      <File Name="include/ipmitool/ipmi.h"/>
+      <File Name="include/ipmitool/ipmi_sel.h"/>
+      <File Name="include/ipmitool/ipmi_time.h"/>
+      <File Name="include/ipmitool/ipmi_quantaoem.h"/>
+      <File Name="include/ipmitool/ipmi_entity.h"/>
+      <File Name="include/ipmitool/ipmi_fwum.h"/>
+      <File Name="include/ipmitool/ipmi_mc.h"/>
+      <File Name="include/ipmitool/ipmi_fru.h"/>
+      <File Name="include/ipmitool/ipmi_hpmfwupg.h"/>
+      <File Name="include/ipmitool/ipmi_pef.h"/>
+      <File Name="include/ipmitool/ipmi_raw.h"/>
+      <File Name="include/ipmitool/ipmi_cc.h"/>
+      <File Name="include/ipmitool/helper.h"/>
+      <File Name="include/ipmitool/ipmi_lanp6.h"/>
+      <File Name="include/ipmitool/ipmi_vita.h"/>
+      <File Name="include/ipmitool/ipmi_kontronoem.h"/>
+      <File Name="include/ipmitool/ipmi_ime.h"/>
+      <File Name="include/ipmitool/ipmi_sol.h"/>
+      <File Name="include/ipmitool/ipmi_isol.h"/>
+      <File Name="include/ipmitool/ipmi_tsol.h"/>
+      <File Name="include/ipmitool/ipmi_chassis.h"/>
+      <File Name="include/ipmitool/log.h"/>
+      <File Name="include/ipmitool/ipmi_firewall.h"/>
+      <File Name="include/ipmitool/ipmi_sdradd.h"/>
+      <File Name="include/ipmitool/ipmi_picmg.h"/>
+      <File Name="include/ipmitool/ipmi_sunoem.h"/>
+      <File Name="include/ipmitool/ipmi_ekanalyzer.h"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="src">
+    <VirtualDirectory Name="plugins">
+      <VirtualDirectory Name="lan">
+        <File Name="src/plugins/lan/rmcp.h"/>
+        <File Name="src/plugins/lan/lan.h"/>
+        <File Name="src/plugins/lan/auth.h"/>
+        <File Name="src/plugins/lan/asf.h"/>
+        <File Name="src/plugins/lan/lan.c"/>
+        <File Name="src/plugins/lan/auth.c"/>
+        <File Name="src/plugins/lan/md5.h"/>
+        <File Name="src/plugins/lan/md5.c"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="lipmi">
+        <File Name="src/plugins/lipmi/lipmi.c"/>
+        <File Name="src/plugins/lipmi/lipmi.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="imb">
+        <File Name="src/plugins/imb/imbapi.c"/>
+        <File Name="src/plugins/imb/imb.c"/>
+        <File Name="src/plugins/imb/imbapi.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="bmc">
+        <File Name="src/plugins/bmc/bmc.c"/>
+        <File Name="src/plugins/bmc/bmc_intf.h"/>
+        <File Name="src/plugins/bmc/bmc.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="usb">
+        <File Name="src/plugins/usb/usb.c"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="serial">
+        <File Name="src/plugins/serial/serial_basic.c"/>
+        <File Name="src/plugins/serial/serial_terminal.c"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="dbus">
+        <File Name="src/plugins/dbus/dbus.c"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="free">
+        <File Name="src/plugins/free/free.c"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="dummy">
+        <File Name="src/plugins/dummy/dummy.h"/>
+        <File Name="src/plugins/dummy/dummy.c"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="lanplus">
+        <File Name="src/plugins/lanplus/rmcp.h"/>
+        <File Name="src/plugins/lanplus/lanplus_crypt.c"/>
+        <File Name="src/plugins/lanplus/lanplus_crypt.h"/>
+        <File Name="src/plugins/lanplus/lanplus.c"/>
+        <File Name="src/plugins/lanplus/lanplus_dump.c"/>
+        <File Name="src/plugins/lanplus/lanplus_crypt_impl.c"/>
+        <File Name="src/plugins/lanplus/lanplus.h"/>
+        <File Name="src/plugins/lanplus/lanplus_dump.h"/>
+        <File Name="src/plugins/lanplus/lanplus_crypt_impl.h"/>
+        <File Name="src/plugins/lanplus/lanplus_strings.c"/>
+        <File Name="src/plugins/lanplus/asf.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="open">
+        <File Name="src/plugins/open/open.c"/>
+        <File Name="src/plugins/open/open.h"/>
+      </VirtualDirectory>
+      <File Name="src/plugins/ipmi_intf.c"/>
+    </VirtualDirectory>
+    <File Name="src/ipmitool.c"/>
+    <File Name="src/ipmievd.c"/>
+    <File Name="src/ipmishell.c"/>
+  </VirtualDirectory>
+  <Description/>
+  <Dependencies/>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="" Assembler="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g -Wall" C_Options="" Assembler="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" PCHFlags="" PCHFlagsPolicy="0">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="-O0" Required="yes">
+        <LibraryPath Value="."/>
+        <LibraryPath Value="Debug"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Debug" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="./Debug" PauseExecWhenProcTerminates="no" IsGUIProgram="no" IsEnabled="yes"/>
+      <BuildSystem Name="Default"/>
+      <Environment EnvVarSetName="&lt;Use Workspace Settings&gt;" DbgSetName="&lt;Use Global Settings&gt;">
+        <![CDATA[]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="" IsExtended="no">
+        <DebuggerSearchPaths/>
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion EnableCpp11="no" EnableCpp14="no">
+        <ClangCmpFlagsC/>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+  <VirtualDirectory Name="lib">
+    <File Name="lib/ipmi_ekanalyzer.c"/>
+    <File Name="lib/ipmi_dcmi.c"/>
+    <File Name="lib/ipmi_sol.c"/>
+    <File Name="lib/ipmi_quantaoem.c"/>
+    <File Name="lib/ipmi_strings.c"/>
+    <File Name="lib/hpm2.c"/>
+    <File Name="lib/ipmi_pef.c"/>
+    <File Name="lib/ipmi_sdr.c"/>
+    <File Name="lib/ipmi_delloem.c"/>
+    <File Name="lib/ipmi_isol.c"/>
+    <File Name="lib/ipmi_user.c"/>
+    <File Name="lib/ipmi_tsol.c"/>
+    <File Name="lib/ipmi_gendev.c"/>
+    <File Name="lib/ipmi_time.c"/>
+    <File Name="lib/ipmi_mc.c"/>
+    <File Name="lib/ipmi_channel.c"/>
+    <File Name="lib/ipmi_fru.c"/>
+    <File Name="lib/dimm_spd.c"/>
+    <File Name="lib/ipmi_raw.c"/>
+    <File Name="lib/ipmi_event.c"/>
+    <File Name="lib/ipmi_ime.c"/>
+    <File Name="lib/ipmi_vita.c"/>
+    <File Name="lib/ipmi_main.c"/>
+    <File Name="lib/helper.c"/>
+    <File Name="lib/ipmi_sel.c"/>
+    <File Name="lib/ipmi_lanp6.c"/>
+    <File Name="lib/ipmi_sdradd.c"/>
+    <File Name="lib/ipmi_kontronoem.c"/>
+    <File Name="lib/ipmi_sunoem.c"/>
+    <File Name="lib/ipmi_session.c"/>
+    <File Name="lib/ipmi_chassis.c"/>
+    <File Name="lib/ipmi_picmg.c"/>
+    <File Name="lib/ipmi_oem.c"/>
+    <File Name="lib/ipmi_fwum.c"/>
+    <File Name="lib/ipmi_cfgp.c"/>
+    <File Name="lib/ipmi_sensor.c"/>
+    <File Name="lib/ipmi_firewall.c"/>
+    <File Name="lib/log.c"/>
+    <File Name="lib/ipmi_hpmfwupg.c"/>
+    <File Name="lib/ipmi_lanp.c"/>
+  </VirtualDirectory>
+</CodeLite_Project>
