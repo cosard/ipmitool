@@ -44,6 +44,8 @@
 #include <ctype.h>
 #include <locale.h>
 
+dadasdasdasda
+
 #include <ipmitool/helper.h>
 #include <ipmitool/log.h>
 #include <ipmitool/ipmi.h>
